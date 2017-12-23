@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar style="background-color:#F8F8F8;">
+    <ion-buttons right>
+      <button ion-button (click)="getMap()">
+        <ion-icon name="globe"></ion-icon>
+      </button>
+      <button ion-button (click)="goBack()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Food on Campus
+    </ion-title>
+  </ion-toolbar>
+  <ion-item text-wrap style="padding-left:10px;padding-right:10px;background-color:#F8F8F8;">
+    <p style="white-space:pre-wrap;text-align: center;"><strong>{{name}}</strong></p>
+  </ion-item>
+</ion-header>
+
+<ion-content style="margin-top:10px;">
+  <ion-item text-wrap style="padding-left:10px;padding-right:10px;" *ngFor="let item of entries">
+      <p style="color:cornflowerblue;">{{item.header}}</p>
+      <p style="white-space:pre-wrap;">{{item.menu}}</p>
+  </ion-item>
+</ion-content>

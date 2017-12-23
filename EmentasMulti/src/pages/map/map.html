@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons right>
+      <button ion-button (click)="goBack()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Food on Campus
+    </ion-title>
+  </ion-toolbar>
+  <ion-item text-wrap style="padding-left:10px;padding-right:10px;background-color:#F8F8F8;">
+    <p style="white-space:pre-wrap;text-align: center;"><strong>{{name}}</strong></p>
+  </ion-item>
+</ion-header>
+
+<ion-content>
+  <div id="map" style="width:100%; height:100%;"></div>
+</ion-content>
