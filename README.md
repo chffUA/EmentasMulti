@@ -16,4 +16,4 @@ Abrir a solution (.sln) no Visual Studio e correr o projeto num emulador/simula�
 
 A aplicação foi testada em emuladores de Android e iOS, ambos fornecidos pelo Visual Studio, numa máquina com Windows 10 x64 e num dispositivo Android real.
 
-O layout foi otimizado para dispositivos Android LG G5. 
+O layout foi otimizado para dispositivos Android.
